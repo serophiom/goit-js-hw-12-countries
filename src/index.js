@@ -1,5 +1,5 @@
 import './sass/main.scss';
-import API from '../src/js/fetchCountries.js';
+// import API from '../src/js/fetchCountries.js';
 import countryCardTpl from '../src/templates/country-card.hbs';
 import countriesListCardTpl from '../src/templates/countries-card.hbs';
 import { error } from '@pnotify/core';
