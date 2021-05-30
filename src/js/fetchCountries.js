@@ -6,16 +6,11 @@ function fetchCountries (name) {
     return fetch(`https://restcountries.eu/rest/v2/name/${name}`).then(country => {
         if (!country.ok) {
         country.status === 404
-        ? error({
-            text: 'Sorry, we can`t find entered name of country. Please try to change inputed name.',
-            delay: 3500,
+        error({
+            text: 'Can`t find country with this name. Please try another one.',
+            delay: 3000,
           })
-        : error({
-            text: 'Sorry, it can be issues with server.',
-            delay: 3500,
-          });
     }
-   
         return country.json();
     });
 }
