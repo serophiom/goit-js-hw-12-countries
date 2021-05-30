@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/_search.scss"],"names":[],"mappings":"AAAA,OACE,gBAAA,CACA,gBAGF,cACE,iBAAA,CACA,WAAA,CACA,UAAA,CACA","file":"src.83fba08e.css","sourceRoot":"../src","sourcesContent":[".input {\n  margin-left: 40px;\n  margin-top: 10px;\n}\n\n.country-flag {\n  position: absolute;\n  width: 200px;\n  left: 250px;\n  top: 50px;\n}\n"]}
