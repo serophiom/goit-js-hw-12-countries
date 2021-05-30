@@ -3,7 +3,7 @@ import API from '../src/js/fetchCountries.js';
 import countryCardTpl from '../src/templates/country-card.hbs';
 import countriesListCardTpl from '../src/templates/countries-card.hbs';
 import { error } from '@pnotify/core';
-// import '@pnotify/core/dist/Pnotify.css';
+import '@pnotify/core/dist/PNotify.css';
 import '@pnotify/core/dist/BrightTheme.css';
 
 const debounce = require('lodash.debounce');
