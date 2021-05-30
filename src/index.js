@@ -12,12 +12,11 @@ const refs = {
    cardRef: document.querySelector('.card'),
 }
 
-refs.inputRef.addEventListener('input', debounce(onInputSubmit, 400));
+refs.inputRef.addEventListener('input', debounce(onInputSubmit, 500));
 
 function onInputSubmit(event) {
     event.preventDefault();
     const inputRefValue = refs.inputRef.value.trim();
-    console.log(inputRefValue.trim());
     API.fetchCountries(inputRefValue).then(markUpSearchResult);
 }
     function markUpSearchResult(country) {
